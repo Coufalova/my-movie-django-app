@@ -5,4 +5,4 @@ import os
 
 # Create your views here.
 def home_page(request):
-    return render(request, 'movies/movies_stuff.html')
+    return render(request,'movies/movies_stuff.html')
